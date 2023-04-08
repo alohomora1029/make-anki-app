@@ -16,7 +16,7 @@ export default function FrontCard({ searchParams }: Params) {
         setInputWord(searchParams.searchTerm);
         setWord(inputWord)
       }
-    },[searchParams])
+    },[searchParams,searchParams.searchTerm])
 
   function handleEditWord() {
     setWord(word);

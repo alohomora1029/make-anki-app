@@ -1,4 +1,0 @@
-
-type onClick = {
-  onClick:()=>void
-}
